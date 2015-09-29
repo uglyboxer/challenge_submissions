@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TASTE</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+
+<body>
+    <div id='header'>
+        <div id='pagename'>TASTE</div>
+        <div id='nav'><a class='links' href='index.html'>Home</a>
+            <a class='links' href='blog.html'>Blog</a>
+            <a class='links' href='login.html'>Sign in</a>
+        </div>
+        <div id='headline'>
+            <p>Keep track of the things you like and the things you dont</p>
+        </div>
+    </div>
+    <div id='notes'>
+        <p>Your tasting notes will not be saved unless you first <a href='login.html'>sign in</a>.</p>
+    </div>
+    <div id='form'>
+        <div id='form-head'>ADD A NEW ENTRY</div>
+        <div id='form-body'>
+            <div id='form-body-col-1'>
+                <form>
+                    <p class='form-tags'>Item Name:
+                    </p>
+                    <p class='form-tags'>Type:
+                    </p>
+                    <p class='form-tags'>Rating:
+                    </p>
+                    <p class='form-tags'>Notes:
+                    </p>
+            </div>
+            <div id='form-body-col-2'>
+                <div>
+                    <input class="entry-tags" type='text' name='item' value='Tequila Esperanto'>
+                </div>
+                <div>
+                    <input class="entry-tags" type='text' name='type' value='Reposado'>
+                </div>
+                <div>
+                    <select class="entry-tags" name='rating'>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+                <div>
+                    <textarea class="entry-tags" rows='6' cols='21'></textarea>
+
+                </div>  
+                <div>
+                        <input id='subbutton' type='submit'>
+                    </div>
+            </div>
+            </form>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+    body {
+        font-family: helvetica, arial, sans-serif;
+        font-weight: 100;
+        background-color: #cbdcdf;
+        padding: 0;
+        margin: 0;
+        color: gray;
+    }
+    
+    p {
+        margin: 0;
+    }
+    
+    #header {
+        background-color: #1d818f;
+        color: white;
+        font-size: 1.2em;
+    }
+    
+    #pagename {
+        float: left;
+        padding: 10px 10px;
+    }
+    
+    #nav {
+        float: right;
+        padding: 10px 10px;
+        font-size: .75em;
+        padding: 8px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .links {
+        margin: 8px;
+    }
+    
+    #headline {
+        font-size: 2.1em;
+        clear: left;
+        text-align: center;
+        margin: 0 20%;
+    }
+    
+    #notes {
+        text-align: center;
+        margin: 15px;
+        padding: 0;
+    }
+    
+    #form {
+        float: left;
+        background-color: white;
+        margin: 14px;
+        padding-bottom: 5px;
+        color: white;
+        width: 33%;
+        font-size: .8em;
+    }
+    
+    #form-head {
+        text-align: center;
+        background-color: #FD8B64;
+        padding: 2%;
+        margin: 0;
+    }
+    
+    #form-body {
+        padding: 5px;
+    }
+    
+    #form-body-col-1 {
+        float: left;
+        background-color: white;
+        padding: 0 0 0 5px;
+        margin: 0;
+        color: gray;
+        text-align: right;
+        width: 30%;
+    }
+    
+    .form-tags {
+        color: gray;
+        padding: 2%;
+        margin: 4px;
+        margin-top: 5px;
+    }
+    
+    .entry-tags {
+        margin: 2.5%;
+    }
+    
+    #form-body-col-2 {
+        float: right;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+        color: gray;
+        text-align: left;
+        width: 65%;
+    }
+    
+    button {
+        background: #1d818f;
+    }
+    
+    textarea {
+        width: 80%;
+    }
+    
+    #subbutton {
+        clear: both;
+        color: white;
+        background-color: #1d818f;
+        border-radius: 6px;
+        border-width: 0;
+    }
